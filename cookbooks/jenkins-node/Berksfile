@@ -1,0 +1,7 @@
+site :opscode
+
+metadata
+
+cookbook "jenkins", git: "git://github.com/opscode-cookbooks/jenkins.git"
+cookbook "openssl", git: "git://github.com/opscode-cookbooks/openssl.git"
+cookbook "java" , git: "git://github.com/opscode-cookbooks/java.git"
